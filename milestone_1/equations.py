@@ -1,6 +1,6 @@
 import math
 
-print("Please enter an equation as a string of the form: `<a>x^2 + <b>x + <c> = 0`")
+print("Please enter equation as a string of the form: `<a>x^2 + <b>x + <c> = 0`")
 s = input()
 s = s.replace(" ", "")
 escape_chars = "x()+"
